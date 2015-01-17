@@ -1,0 +1,6 @@
+{
+    "main":"pl.marchwicki.vertx.vanilla.Deployment",
+    "preserve-cwd": true,
+
+    "includes": "pl.marchwicki.vertx~static-content-web-module~1.0-SNAPSHOT"
+}
