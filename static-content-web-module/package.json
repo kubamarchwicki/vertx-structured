@@ -1,0 +1,9 @@
+{
+  "name": "static-content-web-module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "bower": "^1.3.12"
+  }
+}

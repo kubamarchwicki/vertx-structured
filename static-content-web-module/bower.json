@@ -1,0 +1,11 @@
+{
+  "name": "static-content-web-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "underscore": "1.4.4",
+    "backbone": "1.0.0"
+  }
+}
