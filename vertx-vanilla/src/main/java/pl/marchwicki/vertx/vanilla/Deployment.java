@@ -9,8 +9,8 @@ public class Deployment extends Verticle {
 
     public void start() {
 
-        container.deployModule("io.vertx~mod-web-server~2.0.0-final",
+        container.deployVerticle(StoreRepositoryVerticle.class.getName());
+        container.deployVerticle(TodoMVCVerticle.class.getName(),
                 new JsonObject().putNumber("port", PORT));
-
     }
 }
